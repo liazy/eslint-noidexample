@@ -1,0 +1,19 @@
+{
+  "name": "eslint-demoissue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint --config .eslintrc.json                                                           App",
+    "eslint:teamcity": "eslint --config .eslintrc.json --format ./node_modules/eslint-teamcity/index.js App"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "eslint-teamcity": "^3.0.0"
+  },
+  "eslint-teamcity": {
+    "reporter": "inspections"
+  }
+}

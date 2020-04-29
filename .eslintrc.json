@@ -1,0 +1,6 @@
+{
+	"parserOptions": { "ecmaVersion": 5 },
+    "rules": {
+		"arrow-body-style": ["error", "never"]
+    }
+}
